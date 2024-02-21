@@ -1,0 +1,50 @@
+.nav__bg {
+    z-index: 1111;
+    width: 100%;
+    position: fixed;
+    padding: 1rem 0rem;
+    background: linear-gradient(#000 25%, rgba(0, 0, 0, 0.414), transparent);
+    transition: background-color 0.3s ease;
+}
+
+nav {
+    height: 5.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a,
+p {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 400;
+    transition: all 300ms;
+}
+
+.nav__logo {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.nav__logo>img {
+    width: 5.5rem;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.nav__search {
+    display: flex;
+    color: #fff;
+    align-self: center;
+    gap: 2rem;
+}
+
+.scrolled {
+    background-color: #000;
+}

@@ -1,0 +1,18 @@
+.cakes__bg {
+    width: 100vw;
+    background: #bea087;
+}
+
+.carouselItem {
+    width: 20.8rem;
+    transition: transform 0.3s ease;
+}
+
+.carouselItem>img {
+    width: 100%;
+}
+
+button.carouselItem.active {
+    border-radius: 50%;
+    background: #eed9c7;
+}

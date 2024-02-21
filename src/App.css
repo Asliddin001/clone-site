@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "Circe-bold", sans-serif;
+  src: url("/fonts/Circe-ExtraBold.otf");
+}
+
+@font-face {
+  font-family: "Circe", sans-serif;
+  src: url("/fonts/CRC25.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+.container {
+  max-width: 153rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+body {
+  font-family: "Circe", sans-serif;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  position: absolute;
+  right: 2%;
+  top: 90%;
+  background: #6011cf;
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+.inner>p {
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.inner>span {
+  display: inline-block;
+  position: relative;
+  width: 8px;
+  height: 8px;
+  line-height: 8px;
+  margin-right: 2px;
+  border-radius: 5px;
+  vertical-align: 0.1em;
+  box-shadow: 0 0 0 1px hsla(0, 0%, 100%, .8);
+  background-image: linear-gradient(to right bottom, #80dc7a, #23c748);
+
+}
+
+::-webkit-scrollbar {
+  width: 1rem;
+  border-radius: 1rem;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+.slick-prev.slick-arrow::before {
+  position: absolute;
+  margin-top: -33rem;
+  margin-left: 137rem;
+}
+
+
+.slick-arrow.slick-next::before {
+  position: absolute;
+  margin-top: -33rem;
+  margin-left: -5.5rem;
+}
+
+.slick-arrow.slick-next::before,
+.slick-prev.slick-arrow::before {
+  font-size: 5rem;
+  color: #c3d2cd;
+}
